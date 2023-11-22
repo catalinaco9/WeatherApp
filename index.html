@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="navbar"><h2>Weather Dashboard</h2></div>
+      <div class="content">
+        <div class="main-content">
+          <form>
+            <label for="city-input">Enter a City Name</label>
+            <input type="text" placeholder="E.g. New York, London, Tokyo" />
+            <button class="search-btn">Search</button>
+            <button class="forecast-btn">Forecast</button>
+          </form>
+          <div class="weather-container">
+            Weather information will be displayed here, please input a valid
+            city a click on "Search" button
+          </div>
+        </div>
+
+        <div class="forecast-container"></div>
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
